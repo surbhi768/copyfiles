@@ -1,0 +1,19 @@
+import java.io.*;
+public class writerDemo
+{
+public static void  main(string[] args)
+{
+try
+{
+Filewriter w =new FileWriter("A.txt");
+string str = "This is HelloWorld";
+w.write(str);
+w.close();
+system.out.println("complete");
+}
+catch (IOException e)
+{
+e.printStackTrace();
+}
+}
+}
